@@ -1,1 +1,1 @@
-from aiotikpy.aiotikpy import API
+from .aiotikpy import API
