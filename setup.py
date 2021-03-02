@@ -51,14 +51,15 @@ Returns four related hashtags as lited on TikTok, of the input.
 
   long_description_content_type='text/markdown',
   # description = 'https://github.com/precog-recr/TikPy/README.md',   # Give a short description about your library
-  author = 'Vishwesh Kumar',                   # Type in your name
-  author_email = 'vishwesh18119@iiitd.ac.in',      # Type in your E-Mail
-  url = 'https://github.com/precog-recr/TikPy',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/precog-recr/TikPy/archive/v_05.tar.gz',    # I explain this later on
+  author = 'OofChair',                   # Type in your name
+  author_email = 'oofchairr@gmail.com',      # Type in your E-Mail
+  url = 'https://github.com/oofchair/aiotikpy',   # Provide either the link to your github or to your website
+#  download_url = 'https://github.com/precog-recr/TikPy/archive/v_05.tar.gz',    # I explain this later on
   keywords = ['TikTok', 'API'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'bs4',
           'newspaper3k'
+          'aiohttp'
       ],
   classifiers=[
     'Development Status :: 4 - Beta',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
@@ -69,5 +70,7 @@ Returns four related hashtags as lited on TikTok, of the input.
     # 'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8'
   ],
 )
