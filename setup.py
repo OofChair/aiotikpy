@@ -58,7 +58,7 @@ Returns four related hashtags as lited on TikTok, of the input.
   keywords = ['TikTok', 'API'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'bs4',
-          'newspaper3k'
+          'newspaper3k',
           'aiohttp'
       ],
   classifiers=[
