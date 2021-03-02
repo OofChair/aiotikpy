@@ -2,10 +2,13 @@
 
 TikTok has no public API. TikPy is a **light weight API**, without the requirement of any browser sessions, to collect the public data available at [www.tiktok.com](https://www.tiktok.com). Collect trending posts, video metadata, user metadata, hashtags, music, related hashtags, related music and, download videos with the API. Everything is returned in a JSON object. 
 
+## This has been rewritten to use aiohttp instead of requests to not block.
+
 ## Instlling
 ```python
-pip install TikPy
+pip install git+https://github.com/OofChair/aiotikpy
 ```
+
 ## Quick Start
 ```python
 from TikPy import TikAPI
