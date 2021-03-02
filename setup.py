@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'TikPy',         # How you named your package folder (MyLib)
-  packages = ['TikPy'],   # Chose the same as "name"
+  name = 'aiotikpy',         # How you named your package folder (MyLib)
+  packages = ['aiotikpy'],   # Chose the same as "name"
   version = '1.0',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   long_description="""
