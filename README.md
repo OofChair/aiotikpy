@@ -11,9 +11,9 @@ pip install git+https://github.com/OofChair/aiotikpy
 
 ## Quick Start
 ```python
-from TikPy import TikAPI
+from aiotikpy import API
 
-api = TikAPI.API()
+api = API()
 api.get_user_info('leenabhushan')
 ```
 
