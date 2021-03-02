@@ -1,1 +1,1 @@
-from TikPy.TikAPI import API
+from aiotikpy.aiotikpy import API
